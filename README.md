@@ -10,6 +10,7 @@ Here is the list of tutorials, view each README first:
 - 1. First project with a UITableView
 - 2. Navigation
 - 3. IBActions
+- 4. NSDictionary, NSArray and custom UITableView cells
 
 ### Other Tutorials
 
