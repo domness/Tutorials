@@ -1,8 +1,14 @@
+# iOS Application Development Presentations (Coming Soon)
+
+- Required Tools and Setting Up
+- Basic Application Structure
+- Deployment and Provisioning
+
 # Tutorials
 
 A number of tutorials for developing on the iPhone/iPad.
 
-## List:
+## Tutorials List:
 
 Here is the list of tutorials, view each README first:
 
