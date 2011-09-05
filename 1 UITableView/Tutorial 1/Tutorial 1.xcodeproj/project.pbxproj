@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57C8962814150A5700330FDC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C8962714150A5700330FDC /* UIKit.framework */; };
+		57C8962A14150A5700330FDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C8962914150A5700330FDC /* Foundation.framework */; };
+		57C8962C14150A5700330FDC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C8962B14150A5700330FDC /* CoreGraphics.framework */; };
+		57C8963214150A5700330FDC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57C8963014150A5700330FDC /* InfoPlist.strings */; };
+		57C8963514150A5700330FDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C8963414150A5700330FDC /* main.m */; };
+		57C8963814150A5700330FDC /* Tutorial_1AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C8963714150A5700330FDC /* Tutorial_1AppDelegate.m */; };
+		57C8963B14150A5700330FDC /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57C8963914150A5700330FDC /* MainWindow.xib */; };
+		57C8963E14150A5800330FDC /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C8963D14150A5800330FDC /* RootViewController.m */; };
+		57C8964114150A5800330FDC /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57C8963F14150A5800330FDC /* RootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		57C8962314150A5700330FDC /* Tutorial 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tutorial 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57C8962714150A5700330FDC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		57C8962914150A5700330FDC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		57C8962B14150A5700330FDC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		57C8962F14150A5700330FDC /* Tutorial 1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tutorial 1-Info.plist"; sourceTree = "<group>"; };
+		57C8963114150A5700330FDC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		57C8963314150A5700330FDC /* Tutorial 1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tutorial 1-Prefix.pch"; sourceTree = "<group>"; };
+		57C8963414150A5700330FDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57C8963614150A5700330FDC /* Tutorial_1AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tutorial_1AppDelegate.h; sourceTree = "<group>"; };
+		57C8963714150A5700330FDC /* Tutorial_1AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tutorial_1AppDelegate.m; sourceTree = "<group>"; };
+		57C8963A14150A5700330FDC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		57C8963C14150A5700330FDC /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		57C8963D14150A5800330FDC /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		57C8964014150A5800330FDC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57C8962014150A5700330FDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C8962814150A5700330FDC /* UIKit.framework in Frameworks */,
+				57C8962A14150A5700330FDC /* Foundation.framework in Frameworks */,
+				57C8962C14150A5700330FDC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57C8961814150A5700330FDC = {
+			isa = PBXGroup;
+			children = (
+				57C8962D14150A5700330FDC /* Tutorial 1 */,
+				57C8962614150A5700330FDC /* Frameworks */,
+				57C8962414150A5700330FDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57C8962414150A5700330FDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57C8962314150A5700330FDC /* Tutorial 1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57C8962614150A5700330FDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57C8962714150A5700330FDC /* UIKit.framework */,
+				57C8962914150A5700330FDC /* Foundation.framework */,
+				57C8962B14150A5700330FDC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57C8962D14150A5700330FDC /* Tutorial 1 */ = {
+			isa = PBXGroup;
+			children = (
+				57C8963614150A5700330FDC /* Tutorial_1AppDelegate.h */,
+				57C8963714150A5700330FDC /* Tutorial_1AppDelegate.m */,
+				57C8963914150A5700330FDC /* MainWindow.xib */,
+				57C8963C14150A5700330FDC /* RootViewController.h */,
+				57C8963D14150A5800330FDC /* RootViewController.m */,
+				57C8963F14150A5800330FDC /* RootViewController.xib */,
+				57C8962E14150A5700330FDC /* Supporting Files */,
+			);
+			path = "Tutorial 1";
+			sourceTree = "<group>";
+		};
+		57C8962E14150A5700330FDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57C8962F14150A5700330FDC /* Tutorial 1-Info.plist */,
+				57C8963014150A5700330FDC /* InfoPlist.strings */,
+				57C8963314150A5700330FDC /* Tutorial 1-Prefix.pch */,
+				57C8963414150A5700330FDC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57C8962214150A5700330FDC /* Tutorial 1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57C8964414150A5800330FDC /* Build configuration list for PBXNativeTarget "Tutorial 1" */;
+			buildPhases = (
+				57C8961F14150A5700330FDC /* Sources */,
+				57C8962014150A5700330FDC /* Frameworks */,
+				57C8962114150A5700330FDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tutorial 1";
+			productName = "Tutorial 1";
+			productReference = 57C8962314150A5700330FDC /* Tutorial 1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57C8961A14150A5700330FDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = epiGenesys;
+			};
+			buildConfigurationList = 57C8961D14150A5700330FDC /* Build configuration list for PBXProject "Tutorial 1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 57C8961814150A5700330FDC;
+			productRefGroup = 57C8962414150A5700330FDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57C8962214150A5700330FDC /* Tutorial 1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57C8962114150A5700330FDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C8963214150A5700330FDC /* InfoPlist.strings in Resources */,
+				57C8963B14150A5700330FDC /* MainWindow.xib in Resources */,
+				57C8964114150A5800330FDC /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57C8961F14150A5700330FDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C8963514150A5700330FDC /* main.m in Sources */,
+				57C8963814150A5700330FDC /* Tutorial_1AppDelegate.m in Sources */,
+				57C8963E14150A5800330FDC /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		57C8963014150A5700330FDC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57C8963114150A5700330FDC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		57C8963914150A5700330FDC /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57C8963A14150A5700330FDC /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		57C8963F14150A5800330FDC /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57C8964014150A5800330FDC /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57C8964214150A5800330FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		57C8964314150A5800330FDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		57C8964514150A5800330FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tutorial 1/Tutorial 1-Prefix.pch";
+				INFOPLIST_FILE = "Tutorial 1/Tutorial 1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		57C8964614150A5800330FDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tutorial 1/Tutorial 1-Prefix.pch";
+				INFOPLIST_FILE = "Tutorial 1/Tutorial 1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57C8961D14150A5700330FDC /* Build configuration list for PBXProject "Tutorial 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57C8964214150A5800330FDC /* Debug */,
+				57C8964314150A5800330FDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57C8964414150A5800330FDC /* Build configuration list for PBXNativeTarget "Tutorial 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57C8964514150A5800330FDC /* Debug */,
+				57C8964614150A5800330FDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57C8961A14150A5700330FDC /* Project object */;
+}
