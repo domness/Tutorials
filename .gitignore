@@ -1,7 +1,5 @@
 .DS_Store
 
-1 UITableView/Tutorial 1/Tutorial 1.xcodeproj/xcuserdata/epigenesys.xcuserdatad/xcschemes/xcschememanagement.plist
+*/*/*.xcodeproj/xcuserdata/*.xcuserdatad/xcschemes/*
+*/*/*.xcodeproj/project.xcworkspace/xcuserdata/*.xcuserdatad
 
-1 UITableView/Tutorial 1/Tutorial 1.xcodeproj/xcuserdata/epigenesys.xcuserdatad/xcschemes/Tutorial 1.xcscheme
-
-1 UITableView/Tutorial 1/Tutorial 1.xcodeproj/project.xcworkspace/xcuserdata/epigenesys.xcuserdatad/UserInterfaceState.xcuserstate
