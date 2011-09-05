@@ -1,5 +1,5 @@
 .DS_Store
-
 */*/*.xcodeproj/xcuserdata/*.xcuserdatad/xcschemes/*
 */*/*.xcodeproj/project.xcworkspace/xcuserdata/*.xcuserdatad
-
+*.pbxuser
+*.mode1v3

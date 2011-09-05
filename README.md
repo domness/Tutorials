@@ -9,4 +9,12 @@ Here is the list of tutorials, view each README first:
 - 0. Basics
 - 1. First project with a UITableView
 - 2. Navigation
+- 3. IBActions
 
+### Other Tutorials
+
+I have also got some other tutorials I've made:
+
+- http://ios-blog.co.uk/iphone-development-tutorials/creating-an-nsobject-that-makes-rest-api-calls-with-threading/
+- http://www.youtube.com/watch?v=Q9lEwqWdWas
+- http://www.youtube.com/watch?v=V2jcchdlYr8
