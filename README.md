@@ -4,6 +4,12 @@
 - Basic Application Structure
 - Deployment and Provisioning
 
+### Your best friend
+
+http://developer.apple.com/library/ios/navigation/
+
+Apple has some of the most comprehensive developer documentation you'll ever come across, with samples of the majority of scenarios you may encounter, use it.
+
 # Tutorials
 
 A number of tutorials for developing on the iPhone/iPad.
