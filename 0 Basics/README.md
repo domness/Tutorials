@@ -7,7 +7,7 @@ Here are a few of the basics:
 If you want variables to be available to the whole implementation file, then using the .h, on the line below the @interface you want to do something like:
 
     NSString *string;
-    
+
 This gives an NSString with the variable name 'string'.
 
 If you only want it to be available to a method, then you just write that in the method or something similar to:
@@ -17,44 +17,44 @@ If you only want it to be available to a method, then you just write that in the
 Or
 
     NSString *string = [[NSString alloc] initWithString:@""];
-    
+
 ### Console Logs
 
 To output code to the console you use the line:
 
     NSLog(@"this is a console message");
-  
+
 You can output anything with NSLog such as NSStrings, NSArray's, NSObjects etc. However, to make sure it outputs it correctly, Cocoa has a special way of turning this data into readable strings.
 
 Here are some outputs
-    
+
     // Strings need %@
     NSString * string = @"this is the string";
     NSLog(@"Here is the string: %@", string);
-    
+
     // Ints need %i
     int theInt = 42;
     NSLog(@"Here is the int: %i", theInt);
-    
+
     // Doubles need %d
     double theDouble = 0.01;
     NSLog(@"Here is the double: %d", theDouble);
-    
+
     // Floats need %f
     float theFloat = 0.01f;
     NSLog(@"Here is the float: %f", theFloat);
-    
+
     // NSArrays and NSDictionarys can be called with %@
     NSArray * array = [NSArray arrayWithObjects:@"Row 0", @"Row 1", nil];
     NSLog(@"Here is the array: %@", array);
-    
+
 
 ### Memory Management
 
 Memory management is important when developing iPhone/iPad applications. A standard way of implementing memory management in a method is as follows:
 
     NSArray *array = [[NSArray alloc] initWithObjects:@"Row 0", @"Row 1", @"Row 2", @"Row 3", nil];
-    // Do something with the array
+    // When you're finished with the array
     [array release], array = nil;
 
 We release the NSArray as we have allocated it into memory. We **wouldn't** release the object if we had called autorelease:

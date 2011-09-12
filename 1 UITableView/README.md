@@ -15,7 +15,7 @@ The default Navigation-based project starts off with a UITableViewController. Th
 I start off by opening RootViewController.h and creating a new NSArray variable.
 
     NSArray *array;
-    
+
 There are two different types of array in Cocoa:
 
 - NSArray
@@ -37,8 +37,10 @@ I then modify the ***numberOfRowsInSection*** for the tableView.
     {
       return [array count];
     }
-    
+
 This gives the total number of rows as the total number of entries in the array.
+
+    Note: This is only applicable for UITableView with a single section, for multiple sections you would likely have a 2D array, with you calling the method on the object at the index of the section given; i.e. [[array objectAtIndex:section] count];
 
 Next, I want to output each row in the array in each row of the UITableView:
 
@@ -47,20 +49,23 @@ Next, I want to output each row in the array in each row of the UITableView:
       static NSString *CellIdentifier = @"Cell";
 
       UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+      // Alloc and initialise the cell if it hasn't been already
       if (cell == nil) {
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
       }
 
+      // Set the cells textLabel value according to the array
       cell.textLabel.text = [array objectAtIndex:indexPath.row];
 
       return cell;
     }
-  
+
 Next, I want it to output a value to the console when the user selects a row:
 
     - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
     {
+      // Keeps things pretty by deselecting the selected row rather than leaving it bright blue
       [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
       NSLog(@"User selected row %i with value '%@'", indexPath.row, [array objectAtIndex:indexPath.row]);
     }
-    
+

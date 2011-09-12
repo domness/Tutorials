@@ -23,20 +23,23 @@ Opening SecondViewController.xib, drag a UIButton onto the screen. Now go back t
 In the header, enter the following:
 
     - (IBAction)theAction:(id)sender;
-    
+
 Then go into the implementation and write out the new method:
 
     - (IBAction)theAction:(id)sender
     {
-      UIAlertView * alertView = [[UIAlertView alloc] initWithTitle:@"Woo!" 
-                                                           message:@"You pressed the button!" 
-                                                          delegate:nil 
-                                                 cancelButtonTitle:@"Ok" 
+      // Allocate and initialise an UIAlertView with set parameters
+      UIAlertView * alertView = [[UIAlertView alloc] initWithTitle:@"Woo!"
+                                                           message:@"You pressed the button!"
+                                                          delegate:nil
+                                                 cancelButtonTitle:@"Ok"
                                                  otherButtonTitles:nil, nil];
+      // Display the UIAlertView on the screen
       [alertView show];
+      // Finished with it, so release
       [alertView release];
     }
-    
+
 Inside the method I've just made it show a UIAlertView with some text to the user. You can put anything you want inside this method.
 
 ### Connecting the IBAction
@@ -48,15 +51,13 @@ You may even modify the label at the same time:
 
     - (IBAction)theAction:(id)sender
     {
-      UIAlertView * alertView = [[UIAlertView alloc] initWithTitle:@"Woo!" 
-                                                           message:@"You pressed the button!" 
-                                                          delegate:nil 
-                                                 cancelButtonTitle:@"Ok" 
+      UIAlertView * alertView = [[UIAlertView alloc] initWithTitle:@"Woo!"
+                                                           message:@"You pressed the button!"
+                                                          delegate:nil
+                                                 cancelButtonTitle:@"Ok"
                                                  otherButtonTitles:nil, nil];
       [alertView show];
       [alertView release];
 
       label.text = @"HelloWorld";
     }
-    
-
