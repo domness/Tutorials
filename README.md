@@ -24,6 +24,7 @@ Here is the list of tutorials, view each README first:
 - 3. IBActions
 - 4. NSDictionary, NSArray and custom UITableView cells
 - 5. Delegates
+- 6. Modal Views
 
 ### Other Tutorials
 
